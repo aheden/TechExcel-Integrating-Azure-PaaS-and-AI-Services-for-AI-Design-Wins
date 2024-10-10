@@ -79,6 +79,3 @@ jobs:
       with:
         app-name: '4kbvfsdjsadrc-api'
         images: 4kbvfsdjsadrccosureg.azurecr.io/techexcel/csapi:${{github.run_number}}
-
-
-az ad sp create-for-rbac --name "TechExcelAzurePaaS" --json-auth --role contributor --scopes /subscriptions/b34c1a88-7372-449b-95b2-aec780519c80/resourceGroups/rg-aidemo-lab
